@@ -53,6 +53,6 @@ func (u *UdpModule) SendMessage(message string) error {
         return fmt.Errorf("Ошибка при отправке данных: %v", err)
     }
 
-    fmt.Printf("Сообщение отправлено: %s\n", fullMessage)
+    //fmt.Printf("Сообщение отправлено: %s\n", fullMessage)
     return nil
 }
